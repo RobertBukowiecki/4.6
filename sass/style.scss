@@ -22,9 +22,31 @@ button {
     font-size: 18px;
 }
 
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-title {
+    font-family: $font-one;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.section-subtitle {
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+}
+
+section {
+    padding: 100px 0;
+}
 
 
-//  Navigation //
+////////////////////////  Navigation ////////////////////////
 
 .navigation {
     width: 100%;
@@ -114,3 +136,32 @@ button {
     }
 }
 
+//////////////////////// Services ////////////////////////
+
+.services {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    }
+    h1 {
+        margin: 0;
+    }
+    .cards {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        .card {
+            padding: 10px;
+            max-width: 33%;
+            i {
+                height: 70px;
+                width: 70px;
+                color: #fed136;
+                border-radius: 50%;
+                border: 3px solid #fed136;
+                font-size: 35px;
+                line-height:70px;
+            }
+        }
+        
+    }
