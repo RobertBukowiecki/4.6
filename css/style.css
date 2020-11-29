@@ -1,5 +1,17 @@
 body {
   margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  background-color: #fed136;
+  padding: 20px 40px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
 }
 
 .navigation {
@@ -45,10 +57,15 @@ body {
   font-weight: 400;
   font-size: 2em;
   padding: 5px 0 0 0;
+  font-family: 'Sansita Swashed', cursive;
+  color: #fed136;
 }
 
 .splash .navbar ul {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
   list-style: none;
+  margin-top: 20px;
 }
 
 .splash .navbar ul li {
@@ -84,12 +101,14 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 90%;
 }
 
 .splash .splash-title h1 {
-  font-size: 3.5em;
-  font-weight: 100;
+  font-size: 75px;
+  font-weight: 700;
   margin: 5px 0;
+  margin-bottom: 50px;
 }
 
 .splash .splash-title h1 span {
@@ -97,6 +116,6 @@ body {
 }
 
 .splash .splash-title h4 {
-  font-size: 1.1em;
+  font-size: 40px;
 }
 /*# sourceMappingURL=style.css.map */
