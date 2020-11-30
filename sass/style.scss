@@ -45,6 +45,10 @@ section {
     padding: 100px 0;
 }
 
+.bg-gray {
+    background-color: #f7f7f7;
+}
+
 
 ////////////////////////  Navigation ////////////////////////
 
@@ -152,7 +156,15 @@ section {
         margin-top: 50px;
         .card {
             padding: 10px;
-            max-width: 33%;
+            h4 {
+                margin: 20px 0 15px 0;
+            }
+            p {
+                font-weight: 400;
+                font-family: $font-two;
+                color: rgb(117, 117, 117);
+                margin: 0;
+            }
             i {
                 height: 70px;
                 width: 70px;
@@ -165,3 +177,33 @@ section {
         }
         
     }
+
+
+
+
+
+
+//////////////////////// Portfolio ////////////////////////
+
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .card {
+        padding: 10px;
+        .white {
+            width: fit-content;
+            background-color: #fff;
+            margin-bottom: 50px;
+            display: inline-block;
+        }
+        h4 {
+            margin: 25px 0 5px 0;
+        }
+        p {
+            padding-bottom: 25px; 
+        }
+    }
+}
+

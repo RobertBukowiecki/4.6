@@ -40,6 +40,10 @@ section {
   padding: 100px 0;
 }
 
+.bg-gray {
+  background-color: #f7f7f7;
+}
+
 .navigation {
   width: 100%;
   display: -ms-flexbox;
@@ -167,7 +171,17 @@ h1 {
 
 .cards .card {
   padding: 10px;
-  max-width: 33%;
+}
+
+.cards .card h4 {
+  margin: 20px 0 15px 0;
+}
+
+.cards .card p {
+  font-weight: 400;
+  font-family: "Roboto Slab", serif;
+  color: #757575;
+  margin: 0;
 }
 
 .cards .card i {
@@ -178,5 +192,34 @@ h1 {
   border: 3px solid #fed136;
   font-size: 35px;
   line-height: 70px;
+}
+
+.portfolio {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  text-align: center;
+}
+
+.portfolio .card {
+  padding: 10px;
+}
+
+.portfolio .card .white {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #fff;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+
+.portfolio .card h4 {
+  margin: 25px 0 5px 0;
+}
+
+.portfolio .card p {
+  padding-bottom: 25px;
 }
 /*# sourceMappingURL=style.css.map */
