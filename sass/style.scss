@@ -207,3 +207,35 @@ section {
     }
 }
 
+
+
+//////////////////////// Footer ////////////////////////
+footer {
+    padding: 50px;
+    p {font-size: 0.8em;
+    }
+}
+.copyrights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    a {
+        text-decoration: none;
+    }
+    i {
+        color: #fff;
+        font-size: 1.3em;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #000;
+        text-align: center;
+        margin: 5px;
+
+    }
+}
